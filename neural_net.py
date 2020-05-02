@@ -9,3 +9,4 @@ for i in range(len(weights)):
     for a, b in zip(inputs, weights[i]):
         nn += (a * b)
     layer_op.append(nn+biases[i])
+print(layer_op)
